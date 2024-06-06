@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  laravel:
+  - apiVersion: v2
+    appVersion: "8.3"
+    created: "2024-06-06T16:48:03.889192656Z"
+    description: A Helm chart for a PHP 8.3 laravel application
+    digest: 872d5024752ce2527f866fb83703c4d65108e75b66768faf611eac339e987c5a
+    name: laravel
+    urls:
+    - https://github.com/busting-bytes/helmcharts/releases/download/laravel-0.1.0/laravel-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-06T16:48:03.889198997Z"
