@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   namespace: {{ include "laravel.fullname" . }}
   name: fpmserver
+  annotations:
+    checksum/config: {{ include (print $.Template.BasePath "/configmap.yaml") . | sha256sum }}
   labels:
     {{- include "laravel.labels" . | nindent 4 }}
 spec:
