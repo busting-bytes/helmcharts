@@ -1,5 +1,5 @@
 apiVersion: v2
 name: laravel
 description: A Helm chart for a PHP 8.3 laravel application
-version: 0.3.2
+version: 0.3.3
 appVersion: "8.3"

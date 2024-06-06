@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   namespace: {{ include "laravel.fullname" . }}
   name: {{ include "laravel.fullname" . }}-queue-worker
+  annotations:
+    rollme: {{ randAlphaNum 5 | quote }}
   labels:
     {{- include "laravel.labels" . | nindent 4 }}
 spec:
