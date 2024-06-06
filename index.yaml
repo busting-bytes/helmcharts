@@ -3,6 +3,15 @@ entries:
   laravel:
   - apiVersion: v2
     appVersion: "8.3"
+    created: "2024-06-06T19:55:32.474982446Z"
+    description: A Helm chart for a PHP 8.3 laravel application
+    digest: cf9fa23a1c388eb8630d53c945460a647e1b071c0536301db20e2bd3989809ad
+    name: laravel
+    urls:
+    - https://github.com/busting-bytes/helmcharts/releases/download/laravel-0.3.4/laravel-0.3.4.tgz
+    version: 0.3.4
+  - apiVersion: v2
+    appVersion: "8.3"
     created: "2024-06-06T19:51:39.984995922Z"
     description: A Helm chart for a PHP 8.3 laravel application
     digest: 0acc6b6dcd994f180a0aa2116a76922455a39173c755583dc9dc0fe5d6a5ddd3
@@ -55,4 +64,4 @@ entries:
     urls:
     - https://github.com/busting-bytes/helmcharts/releases/download/laravel-0.1.0/laravel-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-06T19:51:39.985039133Z"
+generated: "2024-06-06T19:55:32.475048971Z"
