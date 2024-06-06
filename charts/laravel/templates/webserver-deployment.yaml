@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: {{ .Values.registry }}/{{ include "laravel.fullname" . }}/webserver:lates
+          image: {{ .Values.registry }}/{{ include "laravel.fullname" . }}/webserver:latest
           imagePullPolicy: Always
           ports:
               - containerPort: 80
